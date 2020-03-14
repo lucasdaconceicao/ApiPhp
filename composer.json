@@ -1,0 +1,30 @@
+{
+  "config": {
+    "optimize-autoloader": false,
+    "classmap-authoritative": false
+  },
+  "autoload": {
+    "psr-4": {
+      "Pearl\\": "Pearl/",
+      "Controllers\\": "Pearl/Controllers/",
+      "Models\\": "Pearl/Models/"
+    }
+  },
+  "require": {
+    "smarty/smarty": "@stable",
+    "nikic/fast-route": "@stable",
+    "phpmailer/phpmailer": "@stable",
+    "php-ds/php-ds": "@stable",
+    "monolog/monolog": "@stable",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-zend-opcache": "*",
+    "illuminate/database": "@stable",
+    "illuminate/console": "@stable",
+    "illuminate/pagination": "@stable",
+    "doctrine/dbal": "^2.9",
+    "samayo/bulletproof": "^4.0",
+    "ramsey/uuid": "^3.8"
+  }
+}

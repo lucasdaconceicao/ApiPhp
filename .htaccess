@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^web/.*$ - [PT]
+RewriteRule ^node_modules/.*$ - [PT]
+RewriteRule ^assets/.*$ - [PT]
+RewriteRule ^temp.php$ - [PT]
+
+RewriteRule ^(.*)$ index.php
